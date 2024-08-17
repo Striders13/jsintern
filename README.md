@@ -1,4 +1,5 @@
 # Тестовое задание для стажера на позицию «Разработчик JS»
+https://striders13.github.io/jsintern/
 
 # Getting Started with Create React App
 
