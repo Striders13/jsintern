@@ -1,0 +1,55 @@
+.table{
+    margin-top: 10px;
+    display: inline-flex;
+    width: 100vw;
+    max-width:1200px ;
+    background-color: rgb(206, 216, 236);
+    margin-bottom: 100px;
+    border-style: solid;
+    flex-wrap: nowrap;
+}
+
+.column{
+    border-right: 1px;  
+    border-style: solid;
+    border-right: 0px;
+    border-top: 0px;
+    border-bottom: 0px;
+    min-width: 50px;
+    resize:horizontal;
+    overflow:hidden;
+    width: 300px;
+}
+
+.columnName{
+    display: flex;
+    background-color: rgb(178, 199, 241);
+    justify-content: center;
+    padding:3px;
+    height:40px;
+}
+
+.columnEntry{
+    display:flex;
+    flex-flow: column;
+    background-color: rgb(206, 216, 236);
+    padding-left:10px;
+}
+
+.columnEntry div{
+    height: 50px;
+}
+
+.modalContainer{
+    display: flex;
+    flex-flow: row;
+}
+
+.modalEntry{
+    width: 15px;
+    margin-left:auto;
+}
+
+.modalEntry:hover {
+    opacity: 60%;
+}
