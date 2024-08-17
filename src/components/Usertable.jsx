@@ -28,8 +28,12 @@ const Usertable = ({userTable}) => {
   };
 
   const getNestedValue = (obj, path) => { // для сортировку по адресу (address.city)
+    if (!obj || typeof path !== 'string') {
+      return undefined;
+    }
+  
     return path.split('.').reduce((acc, key) => acc && acc[key], obj);
-  };
+    };
   
   const sortedUserTable = useMemo(() => {
     const sortedList = [...userTable];
