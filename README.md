@@ -1,8 +1,4 @@
-# Тестовое задание для стажера на позицию «Разработчик JS»
-https://striders13.github.io/jsintern/
-
 # Getting Started with Create React App
-
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
